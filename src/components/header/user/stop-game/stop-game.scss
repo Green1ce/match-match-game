@@ -1,0 +1,25 @@
+$blue: #2196f3;
+$white: #ffffff;
+
+.header{
+  &__stop-game{
+    width: 130px;
+    height: 35px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    background-color: $white;
+    color: red;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+}
+
+.active{
+  display: flex;
+}

@@ -1,0 +1,24 @@
+$blue: #2196f3;
+
+.header{
+  &__button{
+    width: 210px;
+    height: 35px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    color: $blue;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+}
+
+.active{
+  display: flex;
+}

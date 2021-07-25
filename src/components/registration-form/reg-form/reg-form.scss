@@ -1,0 +1,10 @@
+$white: #ffffff;
+
+.registration-form{
+  width: 640px;
+  height: 460px;
+  position: absolute;
+  border-radius: 10px;
+  background-color: $white;
+  z-index: 3;
+}

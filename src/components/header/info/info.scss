@@ -1,0 +1,14 @@
+$white: #ffffff;
+
+.header{
+
+  &__info{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    color: $white;
+    margin-right: 50px;
+    cursor: pointer;
+  }
+}

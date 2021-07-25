@@ -1,0 +1,12 @@
+.header{
+  &__user-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(../../../../../public/registration-form-img.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-right: 10px;
+  }
+}

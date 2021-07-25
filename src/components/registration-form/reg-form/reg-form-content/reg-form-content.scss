@@ -1,0 +1,11 @@
+.registration-form{
+  &__content{
+    width: 640px;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #fafafa;
+    padding: 30px 65px 0 15px;
+  }
+}

@@ -1,0 +1,72 @@
+$white: #ffffff;
+
+.card-container{
+  display: flex;
+  border-radius: 10px;
+  cursor: pointer;
+  perspective: 450px;
+  margin: 0 5px;
+
+  &:hover > .card{
+    transform: translateZ(30px);
+    box-shadow: 0 15px 30px black;
+  }
+
+  &.flipped > .card {
+    transform: rotateY(180deg) translateX(-100%);
+    transform-origin: left;
+  }
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: $white;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  transition: all 0.5s;
+  transform-origin: right;
+  box-shadow: 0 0 10px black;
+
+  &__front,
+  &__back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  &__front{
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  &__back{
+    transform: rotateY(180deg);
+    background-image: url(../../../../public/card-shirt.png);
+  }
+}
+
+.false-choice{
+  background-color: #FF0000;
+}
+
+.true-choice{
+  background-color: #00FF7F;
+}
+
+.four{
+  width: 95px;
+  height: 140px;
+}
+
+.six{
+  width: 65px;
+  height: 90px;
+}

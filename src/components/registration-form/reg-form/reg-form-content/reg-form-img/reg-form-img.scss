@@ -1,0 +1,17 @@
+.registration-form{
+  &__img{
+    width: 165px;
+    height: 165px;
+    display: flex;
+    border-radius: 50%;
+    background-image: url(../../../../../../public/registration-form-img.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 15px;
+  }
+
+  &__img:hover{
+    cursor: pointer;
+    background-image: url(../../../../../../public/registration-form-img-hover.png);
+  }
+}

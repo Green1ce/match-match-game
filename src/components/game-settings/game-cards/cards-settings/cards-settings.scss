@@ -1,0 +1,32 @@
+$white: #ffffff;
+
+.cards-settings__header{
+  width: fit-content;
+  height: 30px;
+  font-size: 16px;
+}
+
+.cards-settings__buttons-wrapper{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.four-cards,
+.six-cards{
+  width: 90px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: $white;
+  cursor: pointer;
+}
+
+.game-level{
+  background-color: #00FF7F;
+}

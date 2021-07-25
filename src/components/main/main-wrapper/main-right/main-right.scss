@@ -1,0 +1,38 @@
+.main{
+
+  &__right{
+    width: 330px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  &__registration-form{
+    width: 295px;
+    height: 210px;
+    background-image: url(../../../../../public/main__registration-form.png);
+  }
+
+  &__settings{
+    width: 115px;
+    height: 70px;
+    background-image: url(../../../../../public/main__settings.png);
+    margin: 40px 0 80px;
+  }
+
+  &__card-field{
+    width: 330px;
+    height: 240px;
+    background-image: url(../../../../../public/main__cadr-field.png);
+  }
+
+  &__registration-form,
+  &__settings,
+  &__card-field{
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
